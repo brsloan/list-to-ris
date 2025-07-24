@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>RIS Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="flexbox">
+      <div id="text-displays-container">
+        <div>
+          <input type="button" id="upload-txt-btn" value="Upload Text">
+          <input type="button" id="download-ris-btn" value="Download RIS">
+          <h1 class="display-label">Input Text</h1>
+          <textarea id="original-display"></textarea>
+        </div>
+        
+        <div id="ris-display">
+          <h1 class="display-label">RIS Conversion</h1>
+          <textarea id="ris-text" readonly></textarea>
+        </div>
+      </div>
+      <div id="html-display-container">
+        <h1 class="display-label">References Detected</h1>
+        <div id="html-display"></div>
+      </div>
+      
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="txt-to-ris.js"></script>
+    <script src="master.js"></script>
+  </body>
+</html>

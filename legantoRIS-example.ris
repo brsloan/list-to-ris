@@ -1,0 +1,134 @@
+TY  - DATA
+TI  - Cartography and Geographic Information Science Evaluating data stability in aggregation structures across spatial scales: revisiting the modifiable areal unit problem
+Y1  - 12 O
+AU  - Jonathan K. Nelson & Cynthia A. Brewer
+RN  - (Print) 1545-0465 (Online) Journal homepage: www.tandfonline.com/journals/tcag20 To cite this article: Jonathan K. Nelson & Cynthia A. Brewer (2017) Evaluating data stability in aggregation structures across spatial scales: revisiting the modifiable areal unit problem, Cartography and Geographic Information Science, 44:1, 35-50, To link to this article: https:// Submit your article to this journal Article views: 2229 View related articles View Crossmark data Citing articles: 21 View citing articles Full Terms & Conditions of access and use can be found at https://www.tandfonline.com/action/journalInformation?journalCode=tcag20
+PB  - Taylor & Francis
+UR  - https://www.tandfonline.com/doi/full/10.1080/15230406.2015.1093431
+DO  - 10.1080/15230406.2015.1093431
+ER  -
+TY  - BOOK
+TI  - Key concepts & techniques in GIS 
+Y1  - 2007
+CY  - Los Angeles [i.e. Thousand Oaks, Calif.] :
+AU  - Albrecht, Jochen.
+RN  - Includes bibliographical references (pages 95-98) and index.
+PB  - SAGE Publications
+SN  - 1412910153; 9781412910156; 1412910161 (pbk.); 9781412910163 (pbk.)
+ER  -
+TY  - CHAP
+T2  - GIS Data Sources
+T1  - Chapter 9 - Common problems encountered in using GIS data
+AU  - Drew Decker
+UR  - https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470173206.ch9
+ER  -
+TY  - ELEC
+TI  - What is a Shapefile
+AU  - ArcGIS Online
+UR  - https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm
+ER  -
+TY  - ELEC
+TI  - What is a coverage
+AU  - ArcGIS Online
+UR  - http://desktop.arcgis.com/en/arcmap/10.3/manage-data/coverages/what-is-a-coverage.htm
+ER  -
+TY  - ELEC
+TI  - What is a geodatabase
+AU  - ArcGIS Online
+UR  - https://pro.arcgis.com/en/pro-app/help/data/geodatabases/overview/what-is-a-geodatabase-.htm
+ER  -
+TY  - ELEC
+TI  - KML
+AU  - Google Developer
+UR  - https://developers.google.com/kml/documentation/kml_tut
+ER  -
+TY  - ELEC
+TI  - LAS dataset
+AU  - ArcGIS Online
+UR  - https://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/what-is-a-las-dataset-.htm
+ER  -
+TY  - ELEC
+TI  - .netCDF
+AU  - ArcGIS Online
+UR  - https://pro.arcgis.com/en/pro-app/help/data/multidimensional/what-is-netcdf-data.htm
+ER  -
+TY  - ELEC
+TI  - TIN
+AU  - ArcGIS Online
+UR  - https://desktop.arcgis.com/en/arcmap/latest/manage-data/tin/fundamentals-of-tin-surfaces.htm
+ER  -
+TY  - ELEC
+TI  - Overview of Join and Relate
+AU  - ArcGIS Online
+UR  - http://pro.arcgis.com/en/pro-app/help/data/tables/joins-and-relates.htm
+ER  -
+TY  - ELEC
+TI  - Modifiable area unit Problem (MUAP)
+AU  - Rick Jones
+PB  - Cartographica Blog
+UR  - https://blog.cartographica.com/the-modifiable-areal-unit-problem-in-gis.html
+ER  -
+TY  - JOUR
+TI  - Evaluating data stability in aggregation structures across spatial scales: revisiting the modifiable areal unit problem
+T2  - Cartography and geographic information science
+Y1  - 2017
+CY  - PHILADELPHIA
+AU  - Nelson, Jonathan K.
+AU  - Brewer, Cynthia A.
+IS  - 1
+EP  - 50
+SN  - 15230406
+UR  - https://na03.alma.exlibrisgroup.com/view/uresolver/01PURDUE_PUWL/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2025-07-10+15:09:40&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-webofscience_cross&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Evaluating+data+stability+in+aggregation+structures+across+spatial+scales%3A+revisiting+the+modifiable+areal+unit+problem&rft.jtitle=Cartography+and+geographic+information+science&rft.au=Nelson%2C+Jonathan+K.&rft.date=2017-01-02&rft.volume=44&rft.issue=1&rft.spage=35&rft.epage=50&rft.pages=35-50&rft.issn=1523-0406&rft.eissn=1545-0465&rft_id=info:doi/10.1080%2F15230406.2015.1093431&rft.pub=Taylor+%26+Francis&rft.place=PHILADELPHIA&rft.stitle=CARTOGR+GEOGR+INF+SC&rft_dat=<webofscience_cross>000388603400003</webofscience_cross>&svc_dat=viewit
+SP  - 35
+PB  - Taylor & Francis
+DO  - 10.1080/15230406.2015.1093431
+ER  -
+TY  - JOUR
+TI  - The modifiable areal unit problem (MAUP) in physical geography
+T2  - Progress in physical geography
+Y1  - 2007
+CY  - London
+AU  - Dark, Shawna J.
+AU  - Bram, Danielle
+IS  - 5
+EP  - 479
+SN  - 03091333
+UR  - https://na03.alma.exlibrisgroup.com/view/uresolver/01PURDUE_PUWL/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2025-07-10+15:12:26&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest_webof&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=The+modifiable+areal+unit+problem+%28MAUP%29+in+physical+geography&rft.jtitle=Progress+in+physical+geography&rft.au=Dark%2C+Shawna+J.&rft.date=2007-10-01&rft.volume=31&rft.issue=5&rft.spage=471&rft.epage=479&rft.pages=471-479&rft.issn=0309-1333&rft.eissn=1477-0296&rft.coden=PGPHAX&rft_id=info:doi/10.1177%2F0309133307083294&rft.pub=SAGE+Publications&rft.place=London&rft.stitle=PROG+PHYS+GEOG&rft_dat=<proquest_webof>1369891881</proquest_webof>&svc_dat=viewit&rft_pqid=231091562&rft_sage_id=10.1177_0309133307083294
+SP  - 471
+PB  - SAGE Publications
+DO  - 10.1177/0309133307083294
+ER  -
+TY  - MULTI
+TI  - Map Layout
+AU  - ArcGIS Online
+UR  - https://pro.arcgis.com/en/pro-app/latest/get-started/add-maps-to-a-layout.htm
+ER  -
+TY  - BOOK
+TI  - Spatial data analysis : an introduction for GIS users 
+Y1  - 2010
+CY  - Oxford ;; New York :
+AU  - Lloyd, Christopher D.
+RN  - Includes bibliographical references and index.
+PB  - Oxford University Press
+SN  - 9780199554324; 0199554323
+ER  -
+TY  - BOOK
+TI  - Key concepts & techniques in GIS 
+Y1  - 2007
+CY  - Los Angeles [i.e. Thousand Oaks, Calif.] :
+AU  - Albrecht, Jochen.
+RN  - Includes bibliographical references (pages 95-98) and index.
+PB  - SAGE Publications
+SN  - 1412910153; 9781412910156; 1412910161 (pbk.); 9781412910163 (pbk.)
+ER  -
+TY  - ELEC
+TI  - Buffering
+AU  - de Smith, Goodchild, Longley et al.
+PB  - Spatial Analysis Online
+UR  - https://spatialanalysisonline.com/HTML/index.html?buffering.htm
+ER  -
+TY  - ELEC
+TI  - An Overview of Overlay Toolset
+PB  - ArcGIS Online
+UR  - https://pro.arcgis.com/en/pro-app/tool-reference/analysis/an-overview-of-the-overlay-toolset.htm
+ER  -
