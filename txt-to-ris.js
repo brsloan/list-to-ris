@@ -19,6 +19,37 @@ const risTags = {
 }
 
 
+function parseReferences(rawText){
+    var urlRegx = /(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
+    var lines = rawText.split(/\r\n|\n\n|\n|\r/);
+    var refs = [];
+
+    lines.forEach(line => {
+      if(line != ''){
+        let url = null;
+        let urlResults = urlRegx.exec(line);
+        if(urlResults && urlResults.length > 0)
+          url = urlResults[0];
+        let title = url ? line.replace(url, '') : line;
+        refs.push({
+            title: title,
+            url: url,
+            type: refTypes.website
+        });
+      }
+    });
+
+    return refs;
+}
+
+function referencesToRIS(refs){
+  var ris = '';
+  for(i=0;i<refs.length;i++){
+    ris += getRIS(refs[i].type, refs[i].title, refs[i].url);
+  }
+  return ris;
+}
+
 function txtToRIS(rawText){
     var urlRegx = /(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
     var lines = rawText.split(/\r\n|\n\n|\n|\r/);
@@ -56,3 +87,9 @@ function getRIS(refType, title, url = null, author = null, publisher = null){
     return ris;
 }
 
+function getFriendlyRefType(unfr){
+    var unfrTypes = ['BOOK','CHAP','ELEC','JOUR','MULTI','DATA'];
+    var frTypes = ['Book','Chapter','Website','Article','Video','Data'];
+
+    return frTypes[unfrTypes.indexOf(unfr)];
+}
