@@ -70,6 +70,12 @@ document.getElementById('btn-data').onclick = function(){
   convertSelectedTo(refTypes.data);
 };
 
+document.getElementById('filename-input').addEventListener('keydown', function(e){
+  if(e.key === "Enter"){
+    downloadRIS();
+  }
+});
+
 function convertSelectedTo(refType){
   var selectedOps = document.getElementById('ref-select').selectedOptions;
   var selectedVals = Array.from(selectedOps).map(({ value }) => value);
@@ -143,7 +149,8 @@ uploadBtn.onclick = function(e){
 
 function downloadRIS(){
     var risText = referencesToRIS(references);
-    downloadTextFile(risText, 'convertedRefs.ris');
+    var filename = sanitizeFilename(document.getElementById('filename-input').value) + '.ris';
+    downloadTextFile(risText, filename);
 }
 
 function uploadTextFile(callback){
