@@ -20,6 +20,7 @@ const risTags = {
 
 
 function parseReferences(rawText){
+    rawText = cleanUpInputText(rawText);
     var urlRegx = /(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
     var lines = rawText.split(/\r\n|\n\n|\n|\r/);
     var refs = [];
@@ -92,4 +93,8 @@ function getFriendlyRefType(unfr){
     var frTypes = ['Book','Chapter','Website','Article','Video','Data'];
 
     return frTypes[unfrTypes.indexOf(unfr)];
+}
+
+function cleanUpInputText(txt){
+  return txt.replaceAll('•','');
 }
