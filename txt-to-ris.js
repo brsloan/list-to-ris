@@ -58,6 +58,7 @@ function txtToRIS(rawText){
 
     lines.forEach(line => {
       if(line != ''){
+        line = line.trim();
         let url = null;
         let urlResults = urlRegx.exec(line);
         if(urlResults && urlResults.length > 0)
@@ -96,5 +97,5 @@ function getFriendlyRefType(unfr){
 }
 
 function cleanUpInputText(txt){
-  return txt.replaceAll('•','');
+  return txt.replaceAll('•','').replaceAll('\t', '');
 }
